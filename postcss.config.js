@@ -4,3 +4,8 @@ module.exports = {
     autoprefixer: {},
   },
 };
+
+// prettier.config.js
+module.exports = {
+  plugins: ['prettier-plugin-tailwindcss'],
+}
