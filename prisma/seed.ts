@@ -117,6 +117,7 @@ async function seedDatabase() {
             name: service.name,
             description: service.description,
             price: service.price,
+            imageUrl: service.imageUrl,
             barbershop: {
               connect: {
                 id: barbershop.id,
@@ -124,7 +125,9 @@ async function seedDatabase() {
             },
           },
         });
+        console.log(`Before creating service ${service.name}`);
       }
+      
 
       barbershops.push(barbershop);
     }
