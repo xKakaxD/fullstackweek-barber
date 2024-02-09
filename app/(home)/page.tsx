@@ -3,7 +3,7 @@ import Header from "../_components/header";
 import { ptBR } from 'date-fns/locale';
 import Search from "./_components/searchBar";
 import BookingItem from '../_components/booking-item';
-import BarbershopItem from './_components/barbershor-item';
+import BarbershopItem from './_components/barbershop-item';
 import { db } from "../_lib/prisma";
 
 
